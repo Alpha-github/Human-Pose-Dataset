@@ -1,7 +1,16 @@
 Recordings/
 calibration_ir_images_with_detected_chessboard/
 OLD_calibration_images/
-*.avi
+calibration_ir_images-unique/
+*/Log/*
+
 __pycache__/
 .vscode/
+.gitkeep
+
+*.avi
+*.dll
+*.lib
+
+
 Dataset Collection Protocol FINAL.txt
