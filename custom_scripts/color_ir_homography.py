@@ -380,7 +380,7 @@ def video_overlay_2(col_video,ir_video,matrix,detect_keypoints=False,output_path
     # Constants
     TOTAL_KEYPOINTS = 18
     MAX_DISAPPEARANCE = 30
-    EXCLUDE_TOPMOST = 2  # Number of topmost blobs to ignore
+    EXCLUDE_TOPMOST = 0  # Number of topmost blobs to ignore
 
     # Blob detector setup
     params = cv2.SimpleBlobDetector_Params()

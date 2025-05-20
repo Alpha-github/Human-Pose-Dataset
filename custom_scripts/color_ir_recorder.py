@@ -3,7 +3,7 @@ import numpy as np
 import threading
 import queue
 from pyorbbecsdk import Config, OBError, OBSensorType, OBFormat, Pipeline, FrameSet, VideoStreamProfile
-from pyorbbecsdk.examples.utils import frame_to_bgr_image
+from utils import frame_to_bgr_image
 import datetime
 import os
 
